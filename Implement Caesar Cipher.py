@@ -18,7 +18,7 @@ def decrypt_caesar_cipher(text, shift):
 
 
 def encrypt_the_text():
-    plain_text = input("\nEnter the plain text: ")
+    plain_text = input("\nEnter the plain text for Encryption or Decryption : ")
     encrypted_text = encrypt_caesar_cipher(plain_text, shift)
     print("\nEncrypted text:  ", encrypted_text)
 
